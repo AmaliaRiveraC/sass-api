@@ -49,10 +49,10 @@ body {
 .main {
 	padding: $padding;
 	text-align: justify;
-	.listaAsistencia {
+	& .listaAsistencia {
 		margin-top: 2%;
 	}
-	ul {
+	& ul {
 		list-style: $list-style;
 	}
 	@media (min-width: $break-small) {
