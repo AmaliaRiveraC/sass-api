@@ -1,0 +1,91 @@
+@import "variables";
+@import "mixin";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+.header {
+	background: $laboratoria-yellow;
+	padding: $padding;
+	color: $white;
+}
+
+.contenedorCategorias {
+	@media (min-width: $break-small) {
+		@include grid (12);
+	}
+	@media (min-width: $break-medium) {
+		@include grid (3)
+	}
+	@media (min-width: $break-large) {
+		@include grid (3)
+	}
+}
+
+.categorias {
+	background: $laboratoria-gray;
+	padding: $padding;
+	list-style: $list-style;
+	margin-top: 5px;
+	color: $white;
+}
+
+.categoriaB {
+	background: $laboratoria-yellow;
+	@extend .categorias;
+}
+
+.main {
+	padding: $padding;
+	text-align: justify;
+	.listaAsistencia {
+		margin-top: 2%;
+	}
+	ul {
+		list-style: $list-style;
+	}
+	@media (min-width: $break-small) {
+		@include grid (12);
+	}
+	@media (min-width: $break-medium) {
+		@include grid (9)
+	}
+	@media (min-width: $break-large) {
+		@include grid (6)
+	}
+}
+
+.aside {
+	background: $laboratoria-gray;
+	text-align: center;
+	color: $white;
+	
+	@media (min-width: $break-small) {
+		@include grid (12);
+	}
+	@media (min-width: $break-medium) {
+		@include grid (12);
+		font-size: $font-small;
+	}
+	@media (min-width: $break-large) {
+		@include grid (3);
+		font-size: $font-small;
+	}
+}
+
+footer {
+	margin-top: 2%;
+	background: $laboratoria-gray;
+	color: $white;
+	text-align: center;
+	@include grid(12);
+}

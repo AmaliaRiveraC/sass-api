@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 100%;
+  margin: 0 auto; }
+
+.header {
+  background: #f7b617;
+  padding: 2%;
+  color: #FFF; }
+
+@media (min-width: 320px) {
+  .contenedorCategorias {
+    width: 99.996%;
+    padding-bottom: 12px;
+    float: left; } }
+@media (min-width: 768px) {
+  .contenedorCategorias {
+    width: 24.999%;
+    padding-bottom: 12px;
+    float: left; } }
+@media (min-width: 1024px) {
+  .contenedorCategorias {
+    width: 24.999%;
+    padding-bottom: 12px;
+    float: left; } }
+
+.categorias, .categoriaB {
+  background: #2b2b2b;
+  padding: 2%;
+  list-style: none;
+  margin-top: 5px;
+  color: #FFF; }
+
+.categoriaB {
+  background: #f7b617; }
+
+.main {
+  padding: 2%;
+  text-align: justify; }
+  .main .listaAsistencia {
+    margin-top: 2%; }
+  .main ul {
+    list-style: none; }
+  @media (min-width: 320px) {
+    .main {
+      width: 99.996%;
+      padding-bottom: 12px;
+      float: left; } }
+  @media (min-width: 768px) {
+    .main {
+      width: 74.997%;
+      padding-bottom: 12px;
+      float: left; } }
+  @media (min-width: 1024px) {
+    .main {
+      width: 49.998%;
+      padding-bottom: 12px;
+      float: left; } }
+
+.aside {
+  background: #2b2b2b;
+  text-align: center;
+  color: #FFF; }
+  @media (min-width: 320px) {
+    .aside {
+      width: 99.996%;
+      padding-bottom: 12px;
+      float: left; } }
+  @media (min-width: 768px) {
+    .aside {
+      width: 99.996%;
+      padding-bottom: 12px;
+      float: left;
+      font-size: 1rem; } }
+  @media (min-width: 1024px) {
+    .aside {
+      width: 24.999%;
+      padding-bottom: 12px;
+      float: left;
+      font-size: 1rem; } }
+
+footer {
+  margin-top: 2%;
+  background: #2b2b2b;
+  color: #FFF;
+  text-align: center;
+  width: 99.996%;
+  padding-bottom: 12px;
+  float: left; }
+
+/*# sourceMappingURL=style.css.map */
