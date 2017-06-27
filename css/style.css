@@ -7,6 +7,9 @@
   width: 100%;
   margin: 0 auto; }
 
+body {
+  height: 100vh; }
+
 .header {
   background: #f7b617;
   padding: 2%;

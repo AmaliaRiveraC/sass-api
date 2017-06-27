@@ -12,7 +12,9 @@
 	margin: 0 auto;
 }
 
-
+body {
+	height: 100vh;
+}
 .header {
 	background: $laboratoria-yellow;
 	padding: $padding;
